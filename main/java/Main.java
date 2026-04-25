@@ -10,7 +10,7 @@ public class Main {
         Tomcat tomcat = new Tomcat();
         int port = 9090;
         tomcat.setPort(port);
-//kkk
+
         // QUAN TRỌNG: Phải có dòng này để Tomcat mở cổng 9090
         tomcat.getConnector();
 

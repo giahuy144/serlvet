@@ -25,7 +25,7 @@
     <div class="user-info">
         <i class="fas fa-user-circle" style="color: #3b82f6; font-size: 20px;"></i>
         <span>Xin chào, <b><%= user.getUsername() %></b></span>
-        <a href="http://localhost:8080/login" class="logout-btn">
+        <a href="http://localhost:9090/login" class="logout-btn">
             <i class="fas fa-sign-out-alt"></i>
             Đăng xuất
         </a>

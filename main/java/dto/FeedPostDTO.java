@@ -28,7 +28,7 @@ public class FeedPostDTO {
         this.createdAt = createdaAt;
         this.likeCount = likeCount;
         this.commentCount = commentCount;
-        this.likedByCurrentUser = this.likedByCurrentUser;
+        this.likedByCurrentUser = likedByCurrentUser;
     }
 
     public int getId() { return id; }
